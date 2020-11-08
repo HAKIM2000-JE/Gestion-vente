@@ -1,0 +1,75 @@
+.login_logo {
+  width: 100px;
+  margin: 10px;
+  object-fit: contain;
+  margin-left: 100px;
+}
+.login_container {
+  width: 500px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.connexion {
+    position: absolute;
+   left: 35%;
+  height: 100vh;
+  width: 1200px;
+  display: grid;
+  /* flex-direction: column; */
+  align-items: center;
+}
+h1 {
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+h5 {
+  margin-bottom: 5px;
+  color: black;
+}
+input {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 70px;
+  background-color: white;
+  border-left:0 ;
+  border-top:0 ;
+  border-right:0 ;
+  outline-width: 0;
+  position: relative;
+  left: -100px;
+}
+p {
+  margin-top: 15px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.btn_sign_in {
+  width: 70%;
+  height: 30px;
+  background-color: #D86161;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  left: -50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn_inscrire{
+  width: 49%;
+  height: 30px;
+  background-color: #D86161;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  left: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}

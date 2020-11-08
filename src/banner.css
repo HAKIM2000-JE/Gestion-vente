@@ -1,0 +1,62 @@
+.banner{
+    display: flex;
+    /* background-color: #f1f1f1; */
+    justify-content: space-between;
+}
+
+.left_image {
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F1F1F1 100%); */
+      mask-image: linear-gradient(#f1f1f1 0%,transparent    );
+      height: 600px;
+      object-fit: contain;
+
+}
+
+.right_image{
+      mask-image: linear-gradient(#f1f1f1 0%,transparent    );
+      height: 600px;
+      object-fit: contain;
+}
+
+.segment_center{
+    margin-top: 200px;
+   
+}
+.title_line1{
+    color: #D86161;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 41px;
+    margin-left: 30px;
+    }
+hr{
+    background-color:#d17c7c ;
+    border-width: 2px;
+}
+
+.title_line2{
+    margin-left: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.title_line3{
+    margin-left: 60px;
+}
+
+.btn_publier_offre{
+    
+    background: #D86161;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    height: 30px;
+    width: 150px;
+    margin-left: 70px;
+    margin-top: 15px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   cursor: pointer;
+   outline-width: 0;
+}

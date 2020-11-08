@@ -1,0 +1,52 @@
+.home{
+    background-color: #F1F1F1;
+    /* height: 100vh; */
+
+     
+} 
+
+.home_content{
+      width: fit-content;
+     width: 1200px;
+     margin: 0 auto;
+     margin-top: 50px;
+}
+
+.products{
+   display: inline-block;
+   justify-content: space-around;
+
+
+
+}
+.product_row{
+    display:flex;
+    text-align: center;
+    
+    width: fit-content;
+    z-index: 1;
+    
+}
+.row_title{
+    color: #D86161;
+    
+    
+    
+    
+}
+
+.row_title_div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 100px;
+     
+}
+
+.row_title_div hr{
+    width: 30%;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+

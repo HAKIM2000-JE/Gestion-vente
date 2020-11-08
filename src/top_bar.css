@@ -1,0 +1,49 @@
+.top_bar{
+    display: flex;
+    background-color:  #D86161;
+    height: 50px;
+    width: 100%;
+}
+ 
+form{
+      margin-top: 10px;
+      margin-left: 30%;
+
+}
+
+.searchbox{
+    height: 30px;
+  
+    width: 360px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+}
+.search_button{
+    border: none;
+    background-color: black;
+    color: #ffffff;
+    padding: 2.5px;
+    position: relative;
+    left: -100px;
+}
+.search_icon{
+    height: 20px !important;
+}
+
+.btn_categorie{
+    margin-left:20% ;
+    color: #ffffff;
+    background-color: black;
+    width: 220px;
+    padding: 5px;
+    padding-left: 20px;
+    
+}
+
+.dropdown_icon{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    
+}
