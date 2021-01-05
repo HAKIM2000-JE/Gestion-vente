@@ -7,7 +7,7 @@ import Order from './Order'
 function Orders() {
     const [{ panier, user }, dispatch] = useStateValue();
     const [orders, setOrders] = useState([]);
-
+    console.log(user)
     useEffect(() => {
         if (user) {
             db
@@ -23,7 +23,7 @@ function Orders() {
                 ))
         } else {
             setOrders([])
-            // alert('no user loged in')
+            alert('no user loged in')
         }
 
     }, [user])

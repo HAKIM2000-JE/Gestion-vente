@@ -15,6 +15,12 @@ function Annonce3() {
         }
         reader.readAsDataURL(e.target.files[0])
     }
+    
+    const name = 'Jhon Doe';
+    const jsxExample = <h1>Hello, {name}!</h1>;
+
+
+    console.log(jsxExample)
     return (
         <div className="annonce">
             <div className="login_logo">

@@ -1,0 +1,68 @@
+select{
+    height: 30px;
+    width: 350px;
+    position: absolute;
+    left: 70px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(192, 189, 189);
+    outline-width: 0;
+   
+}
+
+
+h5{
+     position: absolute;
+    left: 40px;
+}
+
+.btn_sign_inn{
+    position: absolute;
+    left: 30%;
+    bottom: -10%;
+    width: 300px;
+    background-color:#D86161 ;
+    color: white;
+}
+.annonce{
+
+  height: 30vh;
+  width: 1200px;
+  margin-top: 70px;
+
+ 
+ 
+  /* flex-direction: column; */
+  
+}
+
+.left{
+    position: absolute;
+    left: 10%;
+}
+
+.right{
+    position: absolute;
+    right: 10%;
+}
+
+.image_produit{
+    max-width: 200px;
+    object-fit: contain;
+    max-height:200px ;
+}
+
+.container{
+    border: 1px solid lightgray;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.container input{
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
